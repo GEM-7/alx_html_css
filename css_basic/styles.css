@@ -1,17 +1,97 @@
-body{
+body {
     display: flex;
     flex-direction: column;
+    
+    /* --- NEW STYLES --- */
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9; /* Light background for the page */
+    color: #333; /* Default text color */
 }
-main{
+
+/* Styling for <main> and its children */
+main {
     display: flex;
     flex-direction: row;
     flex: auto;
 }
-article{
+
+/* Styling for <article> */
+article {
     flex: 2;
     overflow-y: auto;
+    
+    /* --- NEW STYLES --- */
+    padding: 20px;
+    background-color: #ffffff; /* White background for the main content */
+    border-right: 1px solid #ddd;
 }
-aside{
+
+/* Styling for <aside> */
+aside {
     flex: 1;
     overflow-y: auto;
+    
+    /* --- NEW STYLES --- */
+    padding: 20px;
+    background-color: #e8ecf1; /* Slightly darker background for the sidebar */
+    color: #444;
+}
+
+/* --- NEW COMPONENT STYLES --- */
+
+/* Header styles */
+header {
+    background-color: #0077b6; /* Primary brand color */
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.8em;
+}
+
+/* Navigation list (in header) styles */
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Using flex to align list items horizontally */
+    align-items: center;
+}
+
+header li {
+    padding: 0 15px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+header a:hover {
+    color: #ffd100; /* Accent color on hover */
+}
+
+/* Logo class for the unicode character (pre-defined by the instructions) */
+.logo {
+    font-size: 1.8em; /* Make the logo character significantly bigger */
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+/* Styling for content inside <article> (You can do whatever you want here!) */
+article h1 {
+    color: #0077b6;
+    border-bottom: 2px solid #0077b6;
+    padding-bottom: 5px;
 }
