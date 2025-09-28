@@ -1,0 +1,203 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    color: white;
+}
+
+.navbar .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header div p {
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    align-items: center;
+    padding-left: 40px;
+}
+
+/* Hero Section */
+.hero {
+    background: url("/CSS Advanced Images/Object.png") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    height: 180vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.hero-content h1 {
+    font-size: 120px;
+}
+
+.color1{
+    color: #a445f7;
+}
+.btn-primary {
+    display: block;
+    left: 45%;
+    position: relative;
+    background: #a445f7;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 35px;
+    text-decoration: none;
+    width: 200px;
+}
+
+/* Pros Section */
+.pros {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pros h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.pros-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.pro img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+/* Testimonial */
+.testimonial {
+    background: #a445f7;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section img {
+    display: inline-block;
+    flex: 1;
+    width: 150px;
+}
+
+.testimonial blockquote {
+    display: inline-block;
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+/* Tutorials */
+.tutorials {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.tutorial-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tutorial {
+    max-width: 250px;
+    text-align: left;
+}
+
+.tutorial img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* Membership */
+.membership {
+    background: #0c1b2c;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.feature {
+    max-width: 200px;
+}
+
+/* FAQ */
+.faq {
+    padding: 50px 20px;
+}
+
+.faq-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Footer */
+footer {
+    background: #0c1b2c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-logo {
+    font-weight: bold;
+}

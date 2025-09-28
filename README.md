@@ -6,7 +6,7 @@ Welcome to my ALX Introduction to CSS repository! This project contains foundati
 
 - **Overview**
 Styling HTML elements using inline, internal, and external CSS.
-CSS classe
+CSS classes
 CSS selectors
 Exploration of box model properties
 
